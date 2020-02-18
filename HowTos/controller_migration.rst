@@ -56,6 +56,12 @@ Controller Migration feature does the following in sequence
 8. New controller invokes cloud API to stop old controller
 
 
+Debug
+--------
++ The migration status and error will be displayed in a tag named "MigrationStatus" of the new controller instance. Sample status are "Initializing", "Migrating", "Successful".
+
+
+
 |
 |
 
